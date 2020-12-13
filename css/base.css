@@ -10,7 +10,7 @@ html {
 
 body {
 	background-color: #fff;
-	color: #000;
+	color: #333;
 	font-family: 'Questrial', arial, sans-serif;
 	font-size: 1.6em;
 	line-height: 1.5;
@@ -54,23 +54,6 @@ div, textarea, table, td, th, code, pre, samp {
 	hyphens: auto;
 }
 
-a img { border: 0; }
-
-body > script {display: none !important;}
-
-.skip-links {
-	position: absolute;
-}
-
-.skip-links a {
-	position: absolute;
-	left: -9999px;
-	padding: 0.5em;
-	background: #000;
-	color:#fff;
-	text-decoration: none;
-}
-
-.skip-links a:focus {
-	position: static;
+a img {
+	border: 0;
 }

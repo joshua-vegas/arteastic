@@ -64,37 +64,16 @@ html, #content {
   justify-content: center;
   align-items: center;
   margin: 50px auto;
+  padding: 20px;
+  background-color: #d0f0c0;
+}
+
+.produit_image {
+  max-width: 50%;
 }
 
 .produit_text {
-  margin-left: -150px;
   width: 70%;
-}
-
-/* Repas */
-#repas {
-  display: flex;
-  flex-flow: row nowrap;
-  max-width: 1280px;
-  align-items: center;
-  margin: 50px auto;
-  background-color: #d0f0c0;
-  position: relative;
-  padding: 100px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-.repas_image {
-  position: absolute;
-  top: 50px;
-  right: 50px;
-  width: 350px;
-}
-
-.repas_text {
-  width: 60%;
 }
 
 /* Responsive */
