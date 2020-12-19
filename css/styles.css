@@ -1,7 +1,8 @@
 /* Contenue */
-html, #contenu {
+html, #content {
   width: 100%;
   height: 100%;
+  text-align: center;
 }
 
 h2 {
@@ -51,7 +52,7 @@ header {
   justify-content: center;
   flex-flow: column wrap;
   color: #fff;
-  margin-top: 100px;
+  margin-top: 120px;
   font-size: 2rem;
 }
 
@@ -68,7 +69,6 @@ header {
 
 .pres_texte {
   z-index: 3;
-  text-align: center;
 }
 
 .pres_texte strong {
@@ -96,10 +96,6 @@ header {
   justify-content: center;
 }
 
-#histoire h2, #histoire p {
-  text-align: center;
-}
-
 /* Produits */
 #produits {
   display: flex;
@@ -110,6 +106,7 @@ header {
   margin: 50px auto;
   padding: 20px;
   background-color: #d0f0c0;
+  text-align: left;
 }
 
 .produit_image {
@@ -118,6 +115,17 @@ header {
 
 .produit_text {
   width: 70%;
+  margin: 20px;
+}
+
+/* Collect */
+#collect {
+
+}
+
+/* Menu */
+#menu {
+
 }
 
 /* Responsive */
