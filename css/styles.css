@@ -100,27 +100,27 @@ header {
 #produits {
   display: flex;
   flex-flow: row nowrap;
-  max-width: 1280px;
-  justify-content: center;
+  /*justify-content: center;*/
   align-items: center;
+  max-width: 1280px;
   margin: 50px auto;
   padding: 20px;
   background-color: #d0f0c0;
   text-align: left;
 }
 
-.produit_image {
-  max-width: 50%;
+.produit_text {
+  max-width: 420px;
+  margin: 40px;
 }
 
-.produit_text {
-  width: 70%;
-  margin: 20px;
+.produit_text img {
+  max-width: 420px;
 }
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 860px;
   position: relative;
   margin: auto;
 }
@@ -211,8 +211,8 @@ header {
   to {opacity: 1}
 }
 
-/* Collect */
-#collect {
+/* sante */
+#sante {
 
 }
 
