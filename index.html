@@ -71,36 +71,38 @@
         <div class="slideshow-container">
 
           <!-- Full-width images with number and caption text -->
-          <div class="mySlides fade">
+          <div class="mySlides1 fade">
             <div class="numbertext">1 / 3</div>
-            <img src="images/carbo.jpg" style="width:100%">
+            <img src="images/carbo.jpg">
             <div class="text">Caption Text</div>
           </div>
 
-          <div class="mySlides fade">
+          <div class="mySlides1 fade">
             <div class="numbertext">2 / 3</div>
-            <img src="images/cookies.jpg" style="width:100%">
+            <img src="images/cookies.jpg">
             <div class="text">Caption Two</div>
           </div>
 
-          <div class="mySlides fade">
+          <div class="mySlides1 fade">
             <div class="numbertext">3 / 3</div>
-            <img src="images/empanadas.jpg" style="width:100%">
+            <img src="images/empanadas.jpg">
             <div class="text">Caption Three</div>
           </div>
 
           <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+          <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
         </div>
         <br>
 
         <!-- The dots/circles -->
+        <!--
         <div style="text-align:center">
           <span class="dot" onclick="currentSlide(1)"></span>
           <span class="dot" onclick="currentSlide(2)"></span>
           <span class="dot" onclick="currentSlide(3)"></span>
         </div>
+        -->
       </div>
 
       <!-- produits_text -->
@@ -143,7 +145,99 @@
     <!-- menu -->
     <section id="menu">
       <h2>Notre menu</h2>
-      <p>Carrousel menu</p>
+      <!-- Slideshow -->
+      <div class="slideshow">
+        <!-- Slideshow container -->
+        <div class="slideshow-container">
+
+          <!-- Full-width images with number and caption text -->
+          <div class="mySlides2 fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="" alt="thé">
+            <div class="the">
+              <h3>Sélection de thés</h3>
+              <p>
+                Pu Erh special, Le secret du chaperon rouge,
+                English breakfast broken, Bonheur tibétain,
+                Darjeeling second flush pussimbing,
+                Capetown, Miracle estival,
+                Earl grey white monkey, Vanille Rose,
+                Vietnam Mao Feng, Marakesh Nights,
+                Mojito, Bouquet fleuri, Bonne humeur,
+                Jasmin impérial, Japan Genmaicha Yukihime,
+                Detx Supergreen, Ananas Abricot,
+                Flèche de Cupidon, Framboise Glacé,
+                Mélange pour les enfants,
+                Fontaine à chocolat, Tisane des elfes,
+                Jolies jambes, Thé amincissant,
+                Infusion aux herbes pour le soir,
+                Jolie silhouette, Thé vert Matcha
+              </p>
+            </div>
+            <div class="chocolat">
+              <h3>Les chocolats chauds</h3>
+              <ul>
+                <li>Chai chai unicorn</li>
+                <li>Chili cat</li>
+                <li>Orange fox</li>
+                <li>Choc dog</li>
+                <li>Minty monkey</li>
+              </ul>
+            </div>
+            <div class="Les cafés">
+              <h3>Les cafés</h3>
+              <ul>
+                <li>Expresso</li>
+                <li>Double</li>
+                <li>Macchiato</li>
+                <li>Décaféiné</li>
+                <li>Américain</li>
+                <li>Cappuccino</li>
+              </ul>
+            </div>
+            <div class="Les boissons">
+              <h3>Les boissons</h3>
+              <ul>
+                <li>Ginger beer [sans alcool]</li>
+                <li>Limonade</li>
+                <li>Eau de coco 100 % naturelle</li>
+                <li>Eau plate Corse St Thomas</li>
+                <li>Eau gazeuse Abatille</li>
+                <li>Jus de fruits de saison</li>
+                <li>Smoothies</li>
+                <li>Jus de fruits pressés</li>
+              </ul>
+            </div>
+            <div class="text">Carte des boissons</div>
+          </div>
+
+          <div class="mySlides2 fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="" alt="Carte des vins et bières">
+            <div class="text">Carte des vins et bières</div>
+          </div>
+
+          <div class="mySlides2 fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="" alt="Plat du jour">
+            <div class="text">Carte du plat du jour</div>
+          </div>
+
+          <!-- Next and previous buttons -->
+          <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+        </div>
+        <br>
+
+        <!-- The dots/circles -->
+        <!--
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span>
+          <span class="dot" onclick="currentSlide(2)"></span>
+          <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+        -->
+      </div>
     </section>
 
     <!-- contact -->

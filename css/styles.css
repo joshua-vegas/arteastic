@@ -129,6 +129,10 @@ header {
   display: none;
 }
 
+.mySlides1 img, .mySlides2 img {
+  width: 100%;
+}
+
 /* Next & previous buttons */
 .prev, .next {
   cursor: pointer;
