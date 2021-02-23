@@ -100,7 +100,6 @@ header {
 #produits {
   display: flex;
   flex-flow: row nowrap;
-  /*justify-content: center;*/
   align-items: center;
   max-width: 1280px;
   margin: 50px auto;
@@ -213,7 +212,22 @@ header {
 
 /* sante */
 #sante {
+  max-width: 1280px;
+  margin: 50px auto;
+}
 
+.sante_etapes {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.etape {
+  padding: 20px;
+}
+
+.etape img {
+  max-width: 100px;
 }
 
 /* Menu */
