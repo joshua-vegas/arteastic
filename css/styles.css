@@ -1,5 +1,5 @@
 /* Contenue */
-html, #content {
+html, body {
   width: 100%;
   height: 100%;
   text-align: center;
@@ -85,44 +85,44 @@ header {
   margin: 0 0 10px 0;
 }
 
-/* Histoire */
-#histoire {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 50px 0;
+
+/* Contenu */
+#contenu {
   display: flex;
   flex-flow: column wrap;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+}
+
+.contenu_box {
+  max-width: 1280px;
+  margin: 50px 0;
 }
 
 /* Produits */
 #produits {
+  position: relative;
   display: flex;
   flex-flow: row nowrap;
-  align-items: center;
-  max-width: 1280px;
-  margin: 50px auto;
-  padding: 20px;
   text-align: left;
-  position: relative;
+  width: 100%;
 }
 
 .produits_img {
   width: 60%;
-
 }
 
 .produits_text {
-  max-width: 420px;
   background-color: #d0f0c0;
   position: absolute;
-  right: 150px;
-  top: 0;
-  padding: 40px;
+  top: 10%;
+  right: 10%;
+  z-index: 2;
+  width: 40%;
+  padding: 20px;
 }
 
-.produits_text img {
+.comtesse_logo {
   max-width: 350px;
   display: block;
   margin: 0 auto;

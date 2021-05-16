@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body id="content">
+  <body>
 
     <!-- Header avec navigation -->
     <header>
@@ -52,212 +52,197 @@
       </div>
     </section>
 
-    <!-- notre histoire -->
-    <section id="histoire">
-      <h2>Notre histoire</h2>
-      <p>
-        Diététicienne et naturopathe de profession, j'ai toujours souhaitée ouvrir un concept store regroupant mes différents centres d'intêrets. C'est comme cela qu'est né le projet Arteastic.<br>
-        Tout les jours je vous proposerais un plat du jour différents, accompagnés de mes desserts fait maisons et d'une boisson revigorante.<br>
-        Présent dans le centre d'Avignon, venez vous ressourcer chez nous tout en admirant notre artiste du moment.
-      </p>
-    </section>
+    <!-- Contenu principal du site -->
+    <section id="contenu">
 
-    <!-- nos produits -->
-    <section id="produits">
-
-      <img src="images/carbo.jpg" class="produits_img" alt="Photo d'ingrédient pour des pâtes à la carbonara">
-
-      <!-- produits_text -->
-      <div class="produits_text">
-        <h2>Nos produits</h2>
+      <!-- notre histoire -->
+      <section class="contenu_box">
+        <h2>Notre histoire</h2>
         <p>
-          Tout les jours nous nous évertuons à sélectionner nos produits pour vous proposer des plats délicieux de saisons.<br><br>
-          De plus vous pouvez retrouver dans notre boutique une sélection de produits régionnaux dans notre espace épicerie ainsi que, grâce à notre partenariat, des produits de Comtesse du barry.<br>
+          Diététicienne et naturopathe de profession, j'ai toujours souhaitée ouvrir un concept store regroupant mes différents centres d'intêrets. C'est comme cela qu'est né le projet Arteastic.<br>
+          Tout les jours je vous proposerais un plat du jour différents, accompagnés de mes desserts fait maisons et d'une boisson revigorante.<br>
+          Présent dans le centre d'Avignon, venez vous ressourcer chez nous tout en admirant notre artiste du moment.
         </p>
-        <img src="images/logo_comtesse.png" alt="logo Comtesse du barry">
-      </div>
-    </section>
+      </section>
 
-
-    <!-- Sante -->
-    <!-- À refaire en pop up
-    <section id="sante">
-      <h2>Informations sanitaire</h2>
-      <p>Dans le respect des nouvelles mesures sanitaire, notre magasin est ouvert et continue à vous servir.</p>
-      <p>Pour votre sécurité et simplifier votre visite nous vous recommandons ces étapes à suivre :</p>
-      <div class="sante_etapes">
-        <div class="etape">
-          <img src="images/icon_mask.png" alt="Porter un masque">
-          <p>Veuillez toujours porter un masque à l'intérieur du magasin.</p>
+      <!-- produits -->
+      <section id="produits" class="contenu_box">
+        <!-- produits image -->
+        <img src="images/carbo.jpg" class="produits_img" alt="Photo d'ingrédient pour des pâtes à la carbonara">
+        <!-- produits text -->
+        <div class="produits_text">
+          <h2>Nos produits</h2>
+          <p>
+            Tout les jours nous nous évertuons à sélectionner nos produits pour vous proposer des plats délicieux de saisons.<br><br>
+            De plus vous pouvez retrouver dans notre boutique une sélection de produits régionnaux dans notre espace épicerie ainsi que, grâce à notre partenariat, des produits de Comtesse du barry.<br>
+          </p>
+          <img class="comtesse_logo" src="images/logo_comtesse.png" alt="logo Comtesse du barry">
         </div>
-        <div class="etape">
-          <img src="images/icon_cleaning_hand.png" alt="Se laver les mains">
-          <p>Pensez à vous lavez régulièrement les mains de plus, si besoin, du gel hydroalcoolique est à disposition dans le magasin.</p>
+      </section>
+
+      <!-- menu -->
+
+      <section id="menu">
+        <h2>Notre menu</h2>
+
+        <div class="text">Carte des boissons</div>
+        <div class="the">
+          <h3>Sélection de thé</h3>
+          <p>
+            Pu Erh special, Le secret du chaperon rouge,
+            English breakfast broken, Bonheur tibétain,
+            Darjeeling second flush pussimbing,
+            Capetown, Miracle estival,
+            Earl grey white monkey, Vanille Rose,
+            Vietnam Mao Feng, Marakesh Nights,
+            Mojito, Bouquet fleuri, Bonne humeur,
+            Jasmin impérial, Japan Genmaicha Yukihime,
+            Detx Supergreen, Ananas Abricot,
+            Flèche de Cupidon, Framboise Glacé,
+            Mélange pour les enfants,
+            Fontaine à chocolat, Tisane des elfes,
+            Jolies jambes, Thé amincissant,
+            Infusion aux herbes pour le soir,
+            Jolie silhouette, Thé vert Matcha
+          </p>
+          <p class="prix">3,50 €</p>
         </div>
-        <div class="etape">
-          <img src="images/icon_disctancing.png" alt="Respecter les distances de sécurité">
-          <p>Veuillez respecter les distances de sécurité à l'intérieur du magasin.</p>
+        <div class="chocolats">
+          <h3>Les chocolats chauds</h3>
+          <ul>
+            <li>Chai chai unicorn</li>
+            <li>Chili cat</li>
+            <li>Orange fox</li>
+            <li>Choc dog</li>
+            <li>Minty monkey</li>
+          </ul>
         </div>
-        <div class="etape">
-          <img src="images/icon_phone.png" alt="Pensez à nous appeller pour toutes commandes">
-          <p>Pour fluidifier le passage dans notre magasin, n'hesitez pas à nous contacter pour toutes commandes.</p>
+        <div class="cafes">
+          <h3>Les cafés</h3>
+          <ul>
+            <li>Expresso</li>
+            <li>Double</li>
+            <li>Macchiato</li>
+            <li>Décaféiné</li>
+            <li>Américain</li>
+            <li>Cappuccino</li>
+          </ul>
         </div>
-      </div>
-    </section>
-    -->
+        <div class="boissons">
+          <h3>Les boissons</h3>
+          <ul>
+            <li>Ginger beer [sans alcool]</li>
+            <li>Limonade</li>
+            <li>Eau de coco 100 % naturelle</li>
+            <li>Eau plate Corse St Thomas</li>
+            <li>Eau gazeuse Abatille</li>
+            <li>Jus de fruits de saison</li>
+            <li>Smoothies</li>
+            <li>Jus de fruits pressés</li>
+          </ul>
+        </div>
 
-    <!-- menu -->
-    <!-- menu à modifier (suppression du caroussel)
-    <section id="menu">
-      <h2>Notre menu</h2>
+        <div class="text">Cartes des vins et bières</div>
+        <div class="vins">
+          <h3>Vin domaine de Comiac</h3>
+          <ul>
+            <li>Émotion vin blanc 2017</li>
+            <li>Grenache<br>vin rosé 2016</li>
+            <li>Nuance<br>vin rouge 2017</li>
+            <li>Bacchanales<br>vin rouge 2015</li>
+            <li>Kir vin blanc<br>gingembre safran</li>
+          </ul>
+        </div>
+        <div class="vins">
+          <h3>Vin domaine Le Bois Sacré</h3>
+          <ul>
+            <li>Mille pieds<br>Vin Blanc 2016</li>
+          </ul>
+        </div>
+        <div class="vins">
+          <h3>Vin domaine Mas mellet</h3>
+          <ul>
+            <li>Les salines<br>. Naturel sans pression .<br>Vin Rouge 2017</li>
+          </ul>
+        </div>
+        <div class="vins">
+          <h3>Vin domaine Brillane</h3>
+          <ul>
+            <li>Le B<br>Vin Blanc 2015</li>
+          </ul>
+        </div>
+        <div class="vins">
+          <h3>Champagne domaine Ruffin</h3>
+          <ul>
+            <li>Blanc<br>Chardonnay d’or</li>
+            <li>Rosé<br>Cuvée Roseanne</li>
+          </ul>
+        </div>
+        <div class="vins">
+          <h3>Bières</h3>
+          <ul>
+            <li>La Machotte<br>Blonde</li>
+            <li>La Machotte<br>Blanche</li>
+            <li>La Machotte<br>Ambrée</li>
+          </ul>
+        </div>
 
-      <div class="slideshow">
 
-        <div class="slideshow-container">
+        <img src="images/fleur_the.png" alt="Illustration fleur de thé">
+        <div class="plat">
+          <h3>Plat du jour</h3>
+          <p>
+            Venait dévouvrir notre plat du jour, confectionné avec amour au petit matin.<br>
+            Vous pouvez aussi venir déguster nos desserts et nos gâteaux fait maisons.
+          </p>
+        </div>
 
+      </section>
 
-          <div class="mySlides2 fade">
-            <div class="numbertext">1 / 3</div>
-            <img src="images/fleur_cafe.png" alt="Illustration fleur de café">
-            <div class="the">
-              <h3>Sélection de thé</h3>
-              <p>
-                Pu Erh special, Le secret du chaperon rouge,
-                English breakfast broken, Bonheur tibétain,
-                Darjeeling second flush pussimbing,
-                Capetown, Miracle estival,
-                Earl grey white monkey, Vanille Rose,
-                Vietnam Mao Feng, Marakesh Nights,
-                Mojito, Bouquet fleuri, Bonne humeur,
-                Jasmin impérial, Japan Genmaicha Yukihime,
-                Detx Supergreen, Ananas Abricot,
-                Flèche de Cupidon, Framboise Glacé,
-                Mélange pour les enfants,
-                Fontaine à chocolat, Tisane des elfes,
-                Jolies jambes, Thé amincissant,
-                Infusion aux herbes pour le soir,
-                Jolie silhouette, Thé vert Matcha
-              </p>
-              <p class="prix">3,50 €</p>
-            </div>
-            <div class="chocolats">
-              <h3>Les chocolats chauds</h3>
-              <ul>
-                <li>Chai chai unicorn</li>
-                <li>Chili cat</li>
-                <li>Orange fox</li>
-                <li>Choc dog</li>
-                <li>Minty monkey</li>
-              </ul>
-            </div>
-            <div class="cafes">
-              <h3>Les cafés</h3>
-              <ul>
-                <li>Expresso</li>
-                <li>Double</li>
-                <li>Macchiato</li>
-                <li>Décaféiné</li>
-                <li>Américain</li>
-                <li>Cappuccino</li>
-              </ul>
-            </div>
-            <div class="boissons">
-              <h3>Les boissons</h3>
-              <ul>
-                <li>Ginger beer [sans alcool]</li>
-                <li>Limonade</li>
-                <li>Eau de coco 100 % naturelle</li>
-                <li>Eau plate Corse St Thomas</li>
-                <li>Eau gazeuse Abatille</li>
-                <li>Jus de fruits de saison</li>
-                <li>Smoothies</li>
-                <li>Jus de fruits pressés</li>
-              </ul>
-            </div>
-            <div class="text">Carte des boissons</div>
+      <!-- Sante -->
+      <!-- À refaire en pop up
+      <section id="sante">
+        <h2>Informations sanitaire</h2>
+        <p>Dans le respect des nouvelles mesures sanitaire, notre magasin est ouvert et continue à vous servir.</p>
+        <p>Pour votre sécurité et simplifier votre visite nous vous recommandons ces étapes à suivre :</p>
+        <div class="sante_etapes">
+          <div class="etape">
+            <img src="images/icon_mask.png" alt="Porter un masque">
+            <p>Veuillez toujours porter un masque à l'intérieur du magasin.</p>
           </div>
-
-          <div class="mySlides2 fade">
-            <div class="numbertext">2 / 3</div>
-            <img src="images/raisin.png" alt="Illustration d'un grappe de raisin">
-            <div class="text">Cartes des vins et bières</div>
-            <div class="vins">
-              <h3>Vin domaine de Comiac</h3>
-              <ul>
-                <li>Émotion vin blanc 2017</li>
-                <li>Grenache<br>vin rosé 2016</li>
-                <li>Nuance<br>vin rouge 2017</li>
-                <li>Bacchanales<br>vin rouge 2015</li>
-                <li>Kir vin blanc<br>gingembre safran</li>
-              </ul>
-            </div>
-            <div class="vins">
-              <h3>Vin domaine Le Bois Sacré</h3>
-              <ul>
-                <li>Mille pieds<br>Vin Blanc 2016</li>
-              </ul>
-            </div>
-            <div class="vins">
-              <h3>Vin domaine Mas mellet</h3>
-              <ul>
-                <li>Les salines<br>. Naturel sans pression .<br>Vin Rouge 2017</li>
-              </ul>
-            </div>
-            <div class="vins">
-              <h3>Vin domaine Brillane</h3>
-              <ul>
-                <li>Le B<br>Vin Blanc 2015</li>
-              </ul>
-            </div>
-            <div class="vins">
-              <h3>Champagne domaine Ruffin</h3>
-              <ul>
-                <li>Blanc<br>Chardonnay d’or</li>
-                <li>Rosé<br>Cuvée Roseanne</li>
-              </ul>
-            </div>
-            <div class="vins">
-              <h3>Bières</h3>
-              <ul>
-                <li>La Machotte<br>Blonde</li>
-                <li>La Machotte<br>Blanche</li>
-                <li>La Machotte<br>Ambrée</li>
-              </ul>
-            </div>
-            <div class="text">Carte des vins et bières</div>
+          <div class="etape">
+            <img src="images/icon_cleaning_hand.png" alt="Se laver les mains">
+            <p>Pensez à vous lavez régulièrement les mains de plus, si besoin, du gel hydroalcoolique est à disposition dans le magasin.</p>
           </div>
-          <div class="mySlides2 fade">
-            <div class="numbertext">3 / 3</div>
-            <img src="images/fleur_the.png" alt="Illustration fleur de thé">
-            <div class="plat">
-              <h3>Plat du jour</h3>
-              <p>
-                Venait dévouvrir notre plat du jour, confectionné avec amour au petit matin.<br>
-                Vous pouvez aussi venir déguster nos desserts et nos gâteaux fait maisons.
-              </p>
-            </div>
-            <div class="text">Carte du plat du jour</div>
+          <div class="etape">
+            <img src="images/icon_disctancing.png" alt="Respecter les distances de sécurité">
+            <p>Veuillez respecter les distances de sécurité à l'intérieur du magasin.</p>
           </div>
+          <div class="etape">
+            <img src="images/icon_phone.png" alt="Pensez à nous appeller pour toutes commandes">
+            <p>Pour fluidifier le passage dans notre magasin, n'hesitez pas à nous contacter pour toutes commandes.</p>
+          </div>
+        </div>
+      </section>
+      -->
 
-      </div>
-    </section>
-    -->
+      <!-- contact -->
+      <section id="contact">
+        <h2>Nous contacter</h2>
 
-    <!-- contact -->
-    <section id="contact">
-      <h2>Nous contacter</h2>
+        <p>Pour toute réservation ou commande veuillez nous contacter au : 06 27 89 65 77</p>
 
-      <p>Pour toute réservation ou commande veuillez nous contacter au : 06 27 89 65 77</p>
-
-      <p>Venez nous passer un coucou à l'adresse suivante : 15 rue de la petite fusterie - 84000 Avignon</p>
-      <iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1436.2350968574476!2d4.80314859276047!3d43.949637279009636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5eb2c282042a9%3A0x2442e3ccea0480e3!2sArteastic!5e0!3m2!1sfr!2sfr!4v1608387564301!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <p>Venez nous passer un coucou à l'adresse suivante : 15 rue de la petite fusterie - 84000 Avignon</p>
+        <iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1436.2350968574476!2d4.80314859276047!3d43.949637279009636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5eb2c282042a9%3A0x2442e3ccea0480e3!2sArteastic!5e0!3m2!1sfr!2sfr!4v1608387564301!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 
-      <h3>Rejoignez-nous</h3>
-      <div class="social_logos">
-        <img src="" alt="Compte facebook Arteastic">
-        <img src="" alt="Compte instagram Arteastic">
-      </div>
+        <h3>Rejoignez-nous</h3>
+        <div class="social_logos">
+          <img src="" alt="Compte facebook Arteastic">
+          <img src="" alt="Compte instagram Arteastic">
+        </div>
+
+      </section>
 
     </section>
 
