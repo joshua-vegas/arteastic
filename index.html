@@ -9,6 +9,7 @@
   <body>
 
     <!-- Header avec navigation -->
+    <!-- idée de petit sous le menu en selected -->
     <header>
       <nav id="navigation">
         <ul>
@@ -41,11 +42,7 @@
       <div class="pres_texte">
         <p>Bienvenue chez</p>
         <h1>Arteastic</h1>
-        <h2>Bonjour ceci est un test git</h2>
-        <p>
-          <strong>Concept store</strong><br>
-          Salon de thé / Petite restauration / Galerie d'arts<br>
-        </p>
+        <h2>Restaurant / Galerie d'arts / Concept store</h2>
         <p>
           15 rue de la petite fusterie - 84000 Avignon<br>
           Ouverts du Mardi au Samedi - 10h / 18h.
@@ -74,14 +71,45 @@
         <div class="produits_text">
           <h2>Nos produits</h2>
           <p>
-            Tout les jours nous nous évertuons à sélectionner nos produits pour vous proposer des plats délicieux de saisons.<br><br>
-            De plus vous pouvez retrouver dans notre boutique une sélection de produits régionnaux dans notre espace épicerie ainsi que, grâce à notre partenariat, des produits de Comtesse du barry.<br>
+            Tout les jours nous nous évertuons à sélectionner nos produits pour vous proposer des plats délicieux de saisons.
+            <br><br>
+            De plus vous pouvez retrouver dans notre boutique une sélection de produits régionnaux dans notre espace épicerie.
           </p>
-          <img class="comtesse_logo" src="images/logo_comtesse.png" alt="logo Comtesse du barry">
         </div>
       </section>
+      
+      <!-- Menu de test avec tabulation -->
+      <p>Version de test.</p>
 
-      <!-- menu -->
+      <div class="tab">
+        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
+        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+      </div>
+
+      <div id="plat" class="tabcontent">
+        <h3>Plat du jour</h3>
+          <p>À partir de 15 €</p>
+          <p>
+            Venait dévouvrir notre plat du jour, confectionné avec amour au petit matin.<br>
+          </p>
+          <h3>Dessert maison</h3>
+          <p>À partir de 5 €</p>
+          <p>Vous pouvez aussi venir déguster nos desserts et nos gâteaux fait maisons.</p>
+      </div>
+
+      <div id="boisson" class="tabcontent">
+        <h3>Sélection de thé</h3>
+        <p>Paris is the capital of France.</p> 
+      </div>
+
+      <div id="vin" class="tabcontent">
+        <h3>Tokyo</h3>
+        <p>Tokyo is the capital of Japan.</p>
+      </div>
+
+
+      <!-- première version du "menu" -->
 
       <section id="menu">
         <h2>Notre menu</h2>
@@ -134,7 +162,7 @@
           <ul>
             <li>Ginger beer [sans alcool]</li>
             <li>Limonade</li>
-            <li>Eau de coco 100 % naturelle</li>
+            <li>Eau de coco 100% naturelle</li>
             <li>Eau plate Corse St Thomas</li>
             <li>Eau gazeuse Abatille</li>
             <li>Jus de fruits de saison</li>
@@ -199,33 +227,6 @@
         </div>
 
       </section>
-
-      <!-- Sante -->
-      <!-- À refaire en pop up
-      <section id="sante">
-        <h2>Informations sanitaire</h2>
-        <p>Dans le respect des nouvelles mesures sanitaire, notre magasin est ouvert et continue à vous servir.</p>
-        <p>Pour votre sécurité et simplifier votre visite nous vous recommandons ces étapes à suivre :</p>
-        <div class="sante_etapes">
-          <div class="etape">
-            <img src="images/icon_mask.png" alt="Porter un masque">
-            <p>Veuillez toujours porter un masque à l'intérieur du magasin.</p>
-          </div>
-          <div class="etape">
-            <img src="images/icon_cleaning_hand.png" alt="Se laver les mains">
-            <p>Pensez à vous lavez régulièrement les mains de plus, si besoin, du gel hydroalcoolique est à disposition dans le magasin.</p>
-          </div>
-          <div class="etape">
-            <img src="images/icon_disctancing.png" alt="Respecter les distances de sécurité">
-            <p>Veuillez respecter les distances de sécurité à l'intérieur du magasin.</p>
-          </div>
-          <div class="etape">
-            <img src="images/icon_phone.png" alt="Pensez à nous appeller pour toutes commandes">
-            <p>Pour fluidifier le passage dans notre magasin, n'hesitez pas à nous contacter pour toutes commandes.</p>
-          </div>
-        </div>
-      </section>
-      -->
 
       <!-- contact -->
       <section id="contact">
