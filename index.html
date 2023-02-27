@@ -14,11 +14,6 @@
       <nav id="navigation">
         <ul>
           <li>
-            <a href="#presentation">
-              <img src="images/logo.png" alt="logo Arteastic">
-            </a>
-          </li>
-          <li>
             <a href="#presentation">Accueil</a>
           </li>
           <li>
@@ -40,9 +35,8 @@
     <!-- présentation -->
     <section id="presentation">
       <div class="pres_texte">
-        <p>Bienvenue chez</p>
-        <h1>Arteastic</h1>
-        <h2>Restaurant / Galerie d'arts / Concept store</h2>
+        <img src="images/logo.png" alt="logo Arteastic">
+        <h2>Restaurant ° Galerie d'arts ° Épicerie fine</h2>
         <p>
           15 rue de la petite fusterie - 84000 Avignon<br>
           Ouverts du Mardi au Samedi - 10h / 18h.
@@ -54,13 +48,17 @@
     <section id="contenu">
 
       <!-- notre histoire -->
-      <section class="contenu_box">
-        <h2>Notre histoire</h2>
-        <p>
-          Diététicienne et naturopathe de profession, j'ai toujours souhaitée ouvrir un concept store regroupant mes différents centres d'intêrets. C'est comme cela qu'est né le projet Arteastic.<br>
-          Tout les jours je vous proposerais un plat du jour différents, accompagnés de mes desserts fait maisons et d'une boisson revigorante.<br>
-          Présent dans le centre d'Avignon, venez vous ressourcer chez nous tout en admirant notre artiste du moment.
-        </p>
+      <section id="histoire" class="contenu_box">
+        <div class="produits_text">
+          <h2>Notre histoire</h2>
+          <p>
+            Diététicienne et naturopathe de profession, j'ai toujours souhaitée ouvrir un concept store regroupant mes différents centres d'intêrets. C'est comme cela qu'est né le projet Arteastic.<br>
+            Tout les jours je vous proposerais un plat du jour différents, accompagnés de mes desserts fait maisons et d'une boisson revigorante.<br>
+            Présent dans le centre d'Avignon, venez vous ressourcer chez nous tout en admirant notre artiste du moment.
+          </p>
+        </div>
+        <!-- Restaurant image -->
+        <img src="images/devanture.jpg" class="produits_img" alt="Photo de la devanture du restaurant">
       </section>
 
       <!-- produits -->
@@ -78,152 +76,34 @@
         </div>
       </section>
       
-      <!-- Menu de test avec tabulation -->
-      <p>Version de test.</p>
-
-      <div class="tab">
-        <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">London</button>
-        <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-        <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-      </div>
-
-      <div id="plat" class="tabcontent">
-        <h3>Plat du jour</h3>
-          <p>À partir de 15 €</p>
-          <p>
-            Venait dévouvrir notre plat du jour, confectionné avec amour au petit matin.<br>
-          </p>
-          <h3>Dessert maison</h3>
-          <p>À partir de 5 €</p>
-          <p>Vous pouvez aussi venir déguster nos desserts et nos gâteaux fait maisons.</p>
-      </div>
-
-      <div id="boisson" class="tabcontent">
-        <h3>Sélection de thé</h3>
-        <p>Paris is the capital of France.</p> 
-      </div>
-
-      <div id="vin" class="tabcontent">
-        <h3>Tokyo</h3>
-        <p>Tokyo is the capital of Japan.</p>
-      </div>
-
-
-      <!-- première version du "menu" -->
-
+        <!-- Menu de test avec tabulation -->
       <section id="menu">
-        <h2>Notre menu</h2>
 
-        <div class="text">Carte des boissons</div>
-        <div class="the">
-          <h3>Sélection de thé</h3>
-          <p>
-            Pu Erh special, Le secret du chaperon rouge,
-            English breakfast broken, Bonheur tibétain,
-            Darjeeling second flush pussimbing,
-            Capetown, Miracle estival,
-            Earl grey white monkey, Vanille Rose,
-            Vietnam Mao Feng, Marakesh Nights,
-            Mojito, Bouquet fleuri, Bonne humeur,
-            Jasmin impérial, Japan Genmaicha Yukihime,
-            Detx Supergreen, Ananas Abricot,
-            Flèche de Cupidon, Framboise Glacé,
-            Mélange pour les enfants,
-            Fontaine à chocolat, Tisane des elfes,
-            Jolies jambes, Thé amincissant,
-            Infusion aux herbes pour le soir,
-            Jolie silhouette, Thé vert Matcha
-          </p>
-          <p class="prix">3,50 €</p>
-        </div>
-        <div class="chocolats">
-          <h3>Les chocolats chauds</h3>
-          <ul>
-            <li>Chai chai unicorn</li>
-            <li>Chili cat</li>
-            <li>Orange fox</li>
-            <li>Choc dog</li>
-            <li>Minty monkey</li>
-          </ul>
-        </div>
-        <div class="cafes">
-          <h3>Les cafés</h3>
-          <ul>
-            <li>Expresso</li>
-            <li>Double</li>
-            <li>Macchiato</li>
-            <li>Décaféiné</li>
-            <li>Américain</li>
-            <li>Cappuccino</li>
-          </ul>
-        </div>
-        <div class="boissons">
-          <h3>Les boissons</h3>
-          <ul>
-            <li>Ginger beer [sans alcool]</li>
-            <li>Limonade</li>
-            <li>Eau de coco 100% naturelle</li>
-            <li>Eau plate Corse St Thomas</li>
-            <li>Eau gazeuse Abatille</li>
-            <li>Jus de fruits de saison</li>
-            <li>Smoothies</li>
-            <li>Jus de fruits pressés</li>
-          </ul>
+        <div class="tab">
+          <button class="tablinks" onclick="openCity(event, 'plat')" id="defaultOpen">Plat</button>
+          <button class="tablinks" onclick="openCity(event, 'boisson')">Boisson</button>
+          <button class="tablinks" onclick="openCity(event, 'vin')">Vin</button>
         </div>
 
-        <div class="text">Cartes des vins et bières</div>
-        <div class="vins">
-          <h3>Vin domaine de Comiac</h3>
-          <ul>
-            <li>Émotion vin blanc 2017</li>
-            <li>Grenache<br>vin rosé 2016</li>
-            <li>Nuance<br>vin rouge 2017</li>
-            <li>Bacchanales<br>vin rouge 2015</li>
-            <li>Kir vin blanc<br>gingembre safran</li>
-          </ul>
-        </div>
-        <div class="vins">
-          <h3>Vin domaine Le Bois Sacré</h3>
-          <ul>
-            <li>Mille pieds<br>Vin Blanc 2016</li>
-          </ul>
-        </div>
-        <div class="vins">
-          <h3>Vin domaine Mas mellet</h3>
-          <ul>
-            <li>Les salines<br>. Naturel sans pression .<br>Vin Rouge 2017</li>
-          </ul>
-        </div>
-        <div class="vins">
-          <h3>Vin domaine Brillane</h3>
-          <ul>
-            <li>Le B<br>Vin Blanc 2015</li>
-          </ul>
-        </div>
-        <div class="vins">
-          <h3>Champagne domaine Ruffin</h3>
-          <ul>
-            <li>Blanc<br>Chardonnay d’or</li>
-            <li>Rosé<br>Cuvée Roseanne</li>
-          </ul>
-        </div>
-        <div class="vins">
-          <h3>Bières</h3>
-          <ul>
-            <li>La Machotte<br>Blonde</li>
-            <li>La Machotte<br>Blanche</li>
-            <li>La Machotte<br>Ambrée</li>
-          </ul>
-        </div>
-
-
-        <img src="images/fleur_the.png" alt="Illustration fleur de thé">
-        <div class="plat">
+        <div id="plat" class="tabcontent">
           <h3>Plat du jour</h3>
-          <p>
-            Venait dévouvrir notre plat du jour, confectionné avec amour au petit matin.<br>
-            Vous pouvez aussi venir déguster nos desserts et nos gâteaux fait maisons.
-          </p>
+            <p>À partir de 15 €</p>
+            <p>
+              Venait dévouvrir notre plat du jour, confectionné avec amour au petit matin.<br>
+            </p>
+            <h3>Dessert maison</h3>
+            <p>À partir de 5 €</p>
+            <p>Vous pouvez aussi venir déguster nos desserts et nos gâteaux fait maisons.</p>
+        </div>
+
+        <div id="boisson" class="tabcontent">
+          <h3>Sélection de thé</h3>
+          <p>Paris is the capital of France.</p> 
+        </div>
+
+        <div id="vin" class="tabcontent">
+          <h3>Tokyo</h3>
+          <p>Tokyo is the capital of Japan.</p>
         </div>
 
       </section>
@@ -252,5 +132,6 @@
     <footer>
       <p>Tout droit résevés</p>
     </footer>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
