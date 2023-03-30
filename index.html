@@ -26,6 +26,9 @@
             <a href="#menu">Menu</a>
           </li>
           <li>
+            <a href="#social">Réseaux social</a>
+          </li>
+          <li>
             <a href="#contact">Contact</a>
           </li>
         </ul>
@@ -49,7 +52,10 @@
 
       <!-- notre histoire -->
       <section id="histoire" class="contenu_box">
-        <div class="produits_text">
+        <!-- Restaurant image -->
+        <img src="images/devanture.jpg" class="histoire_img" alt="Photo de la devanture du restaurant">
+        <!-- Texte de présentation -->
+        <div class="text histoire">
           <h2>Notre histoire</h2>
           <p>
             Diététicienne et naturopathe de profession, j'ai toujours souhaitée ouvrir un concept store regroupant mes différents centres d'intêrets. C'est comme cela qu'est né le projet Arteastic.<br>
@@ -57,16 +63,12 @@
             Présent dans le centre d'Avignon, venez vous ressourcer chez nous tout en admirant notre artiste du moment.
           </p>
         </div>
-        <!-- Restaurant image -->
-        <img src="images/devanture.jpg" class="produits_img" alt="Photo de la devanture du restaurant">
       </section>
 
       <!-- produits -->
       <section id="produits" class="contenu_box">
-        <!-- produits image -->
-        <img src="images/carbo.jpg" class="produits_img" alt="Photo d'ingrédient pour des pâtes à la carbonara">
         <!-- produits text -->
-        <div class="produits_text">
+        <div class="text produits">
           <h2>Nos produits</h2>
           <p>
             Tout les jours nous nous évertuons à sélectionner nos produits pour vous proposer des plats délicieux de saisons.
@@ -74,11 +76,13 @@
             De plus vous pouvez retrouver dans notre boutique une sélection de produits régionnaux dans notre espace épicerie.
           </p>
         </div>
+        <!-- produits image -->
+        <img src="images/carbo.jpg" class="histoire_img" alt="Photo d'ingrédient pour des pâtes à la carbonara">
       </section>
       
         <!-- Menu de test avec tabulation -->
       <section id="menu">
-
+        <h2>Notre menu</h2>
         <div class="tab">
           <button class="tablinks" onclick="openCity(event, 'plat')" id="defaultOpen">Plat</button>
           <button class="tablinks" onclick="openCity(event, 'boisson')">Boisson</button>
@@ -97,14 +101,81 @@
         </div>
 
         <div id="boisson" class="tabcontent">
-          <h3>Sélection de thé</h3>
-          <p>Paris is the capital of France.</p> 
+          <div class="boisson_content">
+            <div>
+              <h3>Boisson chaude</h3>
+              <ul>
+                <li>Expresso</li>
+                <li>Double</li>
+                <li>Cappuccino</li>
+                <li>Macchiato</li>
+                <li>Décaféiné</li>
+                <li>Américain</li>
+                <li>Thés du moment</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Boisson fraîche</h3>
+              <ul>
+                <li>Eau plate Corse ° St Thomas</li>
+                <li>Eau gazeuse ° Abatille</li>
+                <li>Eau de coco ° 100 % naturelle</li>
+                <li>Smoothies</li>
+                <li>Jus de fruits de saison</li>
+                <li>Ginger beer ° sans alcool</li>
+                <li>Limonade</li>              
+              </ul>
+            </div> 
+          </div>           
         </div>
 
         <div id="vin" class="tabcontent">
-          <h3>Tokyo</h3>
-          <p>Tokyo is the capital of Japan.</p>
+          <div class="vin_content">
+            <div>
+              <h3>Vins rouge</h3>
+              <ul>
+                <li>Expresso</li>
+                <li>Double</li>
+                <li>Cappuccino</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Vins blanc</h3>
+              <ul>
+                <li>Eau plate Corse ° St Thomas</li>
+                <li>Eau gazeuse ° Abatille</li>
+                <li>Eau de coco ° 100 % naturelle</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Champagnes</h3>
+              <ul>
+                <li>Eau plate Corse ° St Thomas</li>
+                <li>Eau gazeuse ° Abatille</li>
+                <li>Eau de coco ° 100 % naturelle</li>
+              </ul>
+            </div>
+            <div>
+              <h3>Bières</h3>
+              <ul>
+                <li>Eau plate Corse ° St Thomas</li>
+                <li>Eau gazeuse ° Abatille</li>
+                <li>Eau de coco ° 100 % naturelle</li>
+              </ul>
+            </div> 
+          </div>
         </div>
+
+      <!-- contact -->
+      </section id="social">
+        <h3>Rejoignez-nous</h3>
+        <div class="social_logos">
+          <img src="" alt="Compte facebook Arteastic">
+          <img src="" alt="Compte instagram Arteastic">
+        </div>
+
+        <div id="social_images"></div>
+      <section>
 
       </section>
 
@@ -118,11 +189,7 @@
         <iframe id="carte" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1436.2350968574476!2d4.80314859276047!3d43.949637279009636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12b5eb2c282042a9%3A0x2442e3ccea0480e3!2sArteastic!5e0!3m2!1sfr!2sfr!4v1608387564301!5m2!1sfr!2sfr" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 
 
-        <h3>Rejoignez-nous</h3>
-        <div class="social_logos">
-          <img src="" alt="Compte facebook Arteastic">
-          <img src="" alt="Compte instagram Arteastic">
-        </div>
+        
 
       </section>
 

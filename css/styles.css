@@ -75,13 +75,13 @@ header {
   font-size: 2.5rem;
 }
 
-/*
-.pres_texte h1 {
+
+/* .pres_texte h1 {
   font-family: 'Bubbler One', sans-serif;
   font-size: 8rem;
   margin: 0;
-}
-*/
+} */
+
 
 .pres_texte p {
   margin: 0 0 50px 0;
@@ -105,16 +105,24 @@ header {
 #produits, #histoire {
   position: relative;
   display: flex;
-  flex-flow: row nowrap;
   text-align: left;
   width: 100%;
 }
 
-.produits_img {
-  width: 60%;
+#histoire {
+  flex-flow: row nowrap;
 }
 
-.produits_text {
+#produits {
+  flex-flow: row-reverse nowrap;
+}
+
+
+.produits_img, .histoire_img {
+  width: 70%;
+}
+
+.text {
   background-color: #d0f0c0;
   position: absolute;
   top: 10%;
@@ -124,16 +132,20 @@ header {
   padding: 20px;
 }
 
-.comtesse_logo {
+.produits {
+  left: 10%;
+}
+
+/* .comtesse_logo {
   max-width: 350px;
   display: block;
   margin: 0 auto;
-}
+} */
 
 
 /* Menu */
 #menu {
-  width: 800px;
+  width: 1280px;
   height: 400px;
   margin: 50px auto;
   padding: 20px;
@@ -147,7 +159,9 @@ header {
 .tab {
   overflow: hidden;
   border: 1px solid #ccc;
-  background-color: #f1f1f1;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
 }
 
 /* Menu : Style the buttons inside the tab */
@@ -159,18 +173,19 @@ header {
   cursor: pointer;
   padding: 14px 16px;
   transition: 0.3s;
-  font-size: 17px;
+  font-size: 2.5rem;
+  width: 33.3333%;
 }
 
 /* Menu : Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
+.tab button:hover, .tab button.active {
+  background-color: #d0f0c0;
 }
 
 /* Menu : Create an active/current tablink class */
-.tab button.active {
+/* .tab button.active {
   background-color: #ccc;
-}
+} */
 
 /* Menu : Style the tab content */
 .tabcontent {
@@ -192,6 +207,21 @@ header {
 @keyframes fadeEffect {
   from {opacity: 0;}
   to {opacity: 1;}
+}
+
+.boisson_content, .vin_content {
+  position: relative;
+  display: flex;
+  flex-flow: row nowrap;
+  padding: 20px;
+}
+
+.boisson_content div {
+  width: 50%;
+}
+
+.vin_content div {
+  width: 25%;
 }
 
 
