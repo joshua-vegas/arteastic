@@ -98,7 +98,9 @@ header {
 
 .contenu_box {
   max-width: 1280px;
-  margin: 50px 0;
+  height: 500px;
+  margin-bottom: 70px;
+  padding-top: 50px;
 }
 
 /* Produits */
@@ -125,12 +127,13 @@ header {
 .text {
   background-color: #d0f0c0;
   position: absolute;
-  top: 10%;
+  top: 15%;
   right: 10%;
   z-index: 2;
-  width: 40%;
+  width: 30%;
   padding: 20px;
 }
+
 
 .produits {
   left: 10%;
@@ -146,22 +149,17 @@ header {
 /* Menu */
 #menu {
   width: 1280px;
-  height: 400px;
-  margin: 50px auto;
+  margin: 0px auto 50px auto;
   padding: 20px;
 }
 
-#menu li, #menu p, #menu h3 {
-  text-align: left;
-}
 
 /* Menu : Style the tab */
 .tab {
   overflow: hidden;
-  border: 1px solid #ccc;
   display: flex;
   flex-flow: row nowrap;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 /* Menu : Style the buttons inside the tab */
@@ -174,12 +172,12 @@ header {
   padding: 14px 16px;
   transition: 0.3s;
   font-size: 2.5rem;
-  width: 33.3333%;
+  margin: 0 20px;
 }
 
 /* Menu : Change background color of buttons on hover */
 .tab button:hover, .tab button.active {
-  background-color: #d0f0c0;
+  border: solid 5px #d0f0c0;
 }
 
 /* Menu : Create an active/current tablink class */
@@ -192,7 +190,6 @@ header {
   display: none;
   height: 300px; /* À confirmer le style */
   padding: 6px 12px;
-  border: 1px solid #ccc;
   border-top: none;
   -webkit-animation: fadeEffect 1s;
   animation: fadeEffect 1s;
@@ -209,20 +206,29 @@ header {
   to {opacity: 1;}
 }
 
-.boisson_content, .vin_content {
+.contenu {
   position: relative;
   display: flex;
   flex-flow: row nowrap;
   padding: 20px;
+  justify-content: center;
 }
 
-.boisson_content div {
-  width: 50%;
+.contenu .colonne {
+  padding: 5%;
 }
 
-.vin_content div {
-  width: 25%;
+
+.menu_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
+
+#menu li, #menu p, #menu h3 {
+  text-align: left;
+}
+
 
 
 /* Contact */
