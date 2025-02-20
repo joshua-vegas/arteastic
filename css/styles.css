@@ -15,9 +15,12 @@ header {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100px;
   z-index: 4;
-  padding: 10px;
+  background-color: #fff;
+}
+
+#navigation {
+  position: relative;
 }
 
 #navigation ul {
@@ -35,8 +38,12 @@ header {
 }
 
 #navigation a {
-  color: #fff;
+  color: #000;
   font-size: 2rem;
+}
+
+#navigation li img {
+  width: 150px;
 }
 
 /* Presentation */
@@ -74,14 +81,6 @@ header {
 .pres_texte strong {
   font-size: 2.5rem;
 }
-
-
-/* .pres_texte h1 {
-  font-family: 'Bubbler One', sans-serif;
-  font-size: 8rem;
-  margin: 0;
-} */
-
 
 .pres_texte p {
   margin: 0 0 50px 0;
@@ -124,6 +123,10 @@ header {
   width: 70%;
 }
 
+.produits_img img {
+  width: 100%;
+}
+
 .text {
   background-color: #d0f0c0;
   position: absolute;
@@ -138,12 +141,6 @@ header {
 .produits {
   left: 10%;
 }
-
-/* .comtesse_logo {
-  max-width: 350px;
-  display: block;
-  margin: 0 auto;
-} */
 
 
 /* Menu */
@@ -169,15 +166,15 @@ header {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 5px 5px;
   transition: 0.3s;
   font-size: 2.5rem;
-  margin: 0 20px;
+  margin: 0 50px;
 }
 
 /* Menu : Change background color of buttons on hover */
 .tab button:hover, .tab button.active {
-  border: solid 5px #d0f0c0;
+  border-bottom: dotted 5px #d0f0c0;
 }
 
 /* Menu : Create an active/current tablink class */
